@@ -82,40 +82,21 @@ To generate this list of available strings' aliases you can run from src:
 
 ## Skins & fonts
 
-Please refer to directory (now living under git submodule) containing appropriate skin for detailed information about authors and licensing of specific theme and its fonts. See below schema for general info:
-```
-assets/skins
-├── Default
-│   ├── GNU_Unifont.ttf
-│   ├── LICENSE_font-GPLv2.txt
-│   └── LICENSE_skin.txt
-├── FontiGrid
-│   ├── BebasKai.ttf
-│   ├── BebasNeue-Bold.ttf
-│   ├── font-modify.info
-│   ├── LICENSE_font-OFLv1.1.txt
-│   └── LICENSE_skin-GPLv2.txt
-├── GameShow
-│   ├── font-modify.info
-│   ├── KdamThmorPro-Regular.ttf
-│   ├── LICENSE_font-OFLv1.1.txt
-│   └── LICENSE_skin-CC_BY_3.0_US.txt
-├── NeonWave
-│   ├── Audiowide-Regular.ttf
-│   ├── font-modify.info
-│   ├── LICENSE_font-OFLv1.1.txt
-│   └── LICENSE_skin-CC_BY_3.0_US.txt
-└── Nsdark
-    ├── BebasKai.ttf
-    ├── BebasNeue-Bold.ttf
-    ├── font-modify.info
-    ├── LICENSE_font-OFLv1.1.txt
-    └── LICENSE_skin-GPLv2.txt
-```
-above list generated with cmd:
-`tree assets/skins -L 2 -I 'icons|imgs|logos*|sections|wallpap*|backdrops|free_backdrop|font.ttf|skin.conf|ACKNOW*' -U` 
+Please refer to directory (now living under git submodule) containing appropriate skin for detailed information about authors and licensing of specific theme and its fonts.
 
-Fonts under OFL license has been expanded with GNU_Unifont.ttf using `font_merge.sh` tool to include most of the UNICODE glyphs and all CJK characters, thus transforming to Pan-Unicode font type. 
+Fonts under OFL license has been expanded with GNU_Unifont.ttf using `font_merge.sh` tool to include most of the UNICODE glyphs and all CJK characters, thus transforming to Pan-Unicode font type.
+
+Default skin legal info:
+```
+assets/skin-Default
+├── GNU_Unifont.ttf
+├── LICENSE_font-GPLv2.txt
+└── LICENSE_skin.txt
+```
+Above list generated with cmd:
+```
+tree assets/skin-Default -L 2 -I 'template|icons|imgs|logos*|sections|wallpap*|backdrops|free_backdrop|font.ttf|skin.conf|ACKNOW*' -U
+```
 
 ## Controls
 
