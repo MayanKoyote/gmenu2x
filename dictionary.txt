@@ -228,6 +228,7 @@ Poweroff or reboot the device?=
 Poweroff the device?=
 Poweroff=
 Preview mode=
+Preview pane width=
 Processing output.=
 Quick resume=
 RGBA values are=
@@ -395,6 +396,7 @@ WARNING: Forcing TV output disables hot-plugging detection, use TV settings or h
 WARNING: in HOST mode there is no hot-plugging detection, use USB settings to apply any change.=
 Wallpaper=
 Welcome to GMenu=
+Width of preview window=
 Y: Show manual=
 Yes=
 You should disable Usb Networking to do this.=

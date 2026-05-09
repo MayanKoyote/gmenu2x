@@ -191,6 +191,7 @@ Power=Ligar / Desligar
 Poweroff or reboot the device?=Desligar ou reiniciar o dispositivo?
 Poweroff=Desligar
 Preview mode=Modo de pré-visualização
+Preview pane width=
 Processing output.=Processando saída...
 Quick resume=
 Reboot=Reiniciar
@@ -323,6 +324,7 @@ Wallpaper=Papel de parede
 WARNING: Forcing TV output disables hot-plugging detection, use TV settings or hotkeys to apply any change.=
 WARNING: in HOST mode there is no hot-plugging detection, use USB settings to apply any change.=
 Welcome to GMenu=Bem vindo ao GMenu! 
+Width of preview window=
 Yes=Sim
 Zip content=Conteúdo Zip
 _keyboard_en_t1_l1_=qwertyuiop[]=789
